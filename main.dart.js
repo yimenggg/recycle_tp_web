@@ -90332,7 +90332,7 @@ s=p}while(true)switch(s){case 0:f={}
 p=4
 m=A.dy(n.a+"/api/signup/student",0,null)
 h=t.N
-l=A.aa(["Content-Type","application/json; charset=UTF-8","Accept","application/json","Access-Control-Allow-Origin","*","Access-Control-Allow-Methods","POST, GET, OPTIONS, PUT, DELETE, HEAD"],h,h)
+l=A.aa(["Content-Type","application/json; charset=UTF-8"],h,h)
 k=B.a1.vh(A.aa(["name",a0,"email",c,"password",a1,"confirmPassword",a,"faculty",d],h,h),null)
 s=7
 return A.y(A.aD_(m,k,l),$async$xy)
@@ -90380,7 +90380,7 @@ m=A.nI(a,!1,t.nj)
 l=A.dd(a,!1)
 k=A.dy(n.a+"/api/login/student",0,null)
 g=t.N
-j=A.aa(["Content-Type","application/json","Access-Control-Allow-Origin","*","Access-Control-Allow-Methods","POST, GET, OPTIONS, PUT, DELETE, HEAD"],g,g)
+j=A.aa(["Content-Type","application/json"],g,g)
 i=B.a1.vh(A.aa(["email",b,"password",c],g,g),null)
 s=7
 return A.y(A.aD_(k,i,j),$async$xw)
@@ -90575,7 +90575,7 @@ k=A.nI(a,!1,t.k0)
 j=n.a+"/api/point/"+A.j(l)
 e=t.N
 s=8
-return A.y(A.a0m(A.dy(j,0,null),A.aa(["Authorization","Bearer "+A.j(m),"Access-Control-Allow-Origin","*","Access-Control-Allow-Methods","POST, GET, OPTIONS, PUT, DELETE, HEAD"],e,e)),$async$pc)
+return A.y(A.a0m(A.dy(j,0,null),A.aa(["Authorization","Bearer "+A.j(m)],e,e)),$async$pc)
 case 8:i=a0
 if(i.b===200){e=i
 h=B.a1.iR(A.iL(A.iK(e.e).c.a.h(0,"charset")).cD(e.w),null)

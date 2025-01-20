@@ -90380,7 +90380,7 @@ m=A.nI(a,!1,t.nj)
 l=A.dd(a,!1)
 k=A.dy(n.a+"/api/login/student",0,null)
 g=t.N
-j=A.aa(["Content-Type","application/json"],g,g)
+j=A.aa(["Content-Type","application/json; charset=UTF-8"],g,g)
 i=B.a1.vh(A.aa(["email",b,"password",c],g,g),null)
 s=7
 return A.y(A.aD_(k,i,j),$async$xw)
@@ -91353,34 +91353,34 @@ A.avI.prototype={
 $1(a5){var s=0,r=A.G(t.P),q=1,p,o=this,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4
 var $async$$1=A.H(function(a6,a7){if(a6===1){p=a7
 s=q}while(true)switch(s){case 0:a2=o.b.a
-k=a2.length,j=o.c,i=t.Q,h=o.a,g=h.d,f=t.z,e=h.e,d=t.H,c=0
+k=a2.length,j=o.c,i=t.Q,h=t.z,g=o.a,f=g.e,e=g.d,d=t.H,c=0
 case 2:if(!(c<a2.length)){s=4
 break}b=a2[c].z
 s=b!=null?5:6
 break
 case 5:n=b
+e.bV()
 q=8
 m=A.aRK(n)
 if(m==null){b=A.ci("Invalid QR Code")
 throw A.e(b)}if(J.bI(m,"material")==null||J.bI(m,"weightInGrams")==null||J.bI(m,"userId")==null||J.bI(m,"disposalId")==null){b=A.ci("Invalid QR Code")
 throw A.e(b)}q=12
-g.bV()
-A.aL7(!1,new A.avF(),j,f)
+A.aL7(!1,new A.avF(),j,h)
 s=15
-return A.y(e.t_(j,J.bI(m,"disposalId"),n),$async$$1)
+return A.y(f.t_(j,J.bI(m,"disposalId"),n),$async$$1)
 case 15:l=a7
 A.dd(j,!1).lI(null)
 b=J.bI(l,0)
 b.toString
 if(b==="ok"){j.a4(i).f.dI(new A.jg(A.az("Points awarded Successfully!",null,null,null,null,null,null),null,null,null,null,null,null,null,null,null,null,null,null,B.ae,null,null,null,B.r,null))
-b=A.ll(new A.avG(m),null,f)
+b=A.ll(new A.avG(m),null,h)
 a=A.dd(j,!1)
 a0=a.e
 a0.a.push(new A.hf(b,null,!1,B.iN,B.bm,new A.oO(new ($.JX())(B.bm)),B.bm))
 a0.ap()
 a.tH()
 a.tq()
-b.e.a.bv(new A.avH(h),d)}else{b=J.bI(l,1)
+b.e.a.bv(new A.avH(g),d)}else{b=J.bI(l,1)
 if(b==null)b="Failed to award points"
 j.a4(i).f.dI(new A.jg(A.az(b,null,null,null,null,null,null),null,null,null,null,null,null,null,null,null,null,null,null,B.ae,null,null,null,B.r,null))}q=8
 s=14

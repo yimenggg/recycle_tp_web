@@ -9,4 +9,4 @@ Welcome to the **Smart Recycling Bin (SRB)** web application, part of a project 
 - **Rewards System**: Users earn points for each successful recycling activity, which can be redeemed for various rewards.
 
 ## Visit the App
-You can access the live web application here: [**Recycling Rewards App (Recycle TP)**](https://yimenggg.github.io/recycle_tp_web/)
+You can access the live web application here: [**Recycling Rewards App (Recycle TP)**](https://tp-cen-srb.github.io/RecycleTP/)

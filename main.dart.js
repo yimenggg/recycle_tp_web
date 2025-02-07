@@ -97616,8 +97616,8 @@ A.apT.prototype={
 $0(){A.d6(this.a,!1).lg(null)},
 $S:0}
 A.GI.prototype={
-a5(){var s="View the bin on the map for navigation.",r=t.N
-return new A.a2s(A.b([A.a5(["image","lib/presentation/images/user_guide_home_1.png","text","Home page allows you to view the capacity of each bin in a location, and view the location on the map."],r,r),A.a5(["image","lib/presentation/images/user_guide_home_2.png","text","Reward page allows you to spend the points you have earned."],r,r),A.a5(["image","lib/presentation/images/user_guide_home_3.png","text","Scan QR code on the bin to earn points."],r,r),A.a5(["image","lib/presentation/images/user_guide_home_4.png","text","Track your points usage history."],r,r),A.a5(["image","lib/presentation/images/user_guide_home_5.png","text","View your profile and your recycling history."],r,r),A.a5(["image","lib/presentation/images/user_guide_home_location.png","text",s],r,r),A.a5(["image","lib/presentation/images/user_guide_home_map.png","text",s],r,r)],t.m0))}}
+a5(){var s=t.N
+return new A.a2s(A.b([A.a5(["image","lib/presentation/images/user_guide_home_1.png","text","View all recycling locations details, and on the map in the home page."],s,s),A.a5(["image","lib/presentation/images/user_guide_home_2.png","text","Spend the points you earn for rewards here."],s,s),A.a5(["image","lib/presentation/images/user_guide_home_3.png","text","Scan QR code on the bin to earn points."],s,s),A.a5(["image","lib/presentation/images/user_guide_home_4.png","text","Track your points usage history."],s,s),A.a5(["image","lib/presentation/images/user_guide_home_5.png","text","View your profile and your recycling statistics."],s,s),A.a5(["image","lib/presentation/images/user_guide_home_location.png","text","Tap to view the bins on the map."],s,s),A.a5(["image","lib/presentation/images/user_guide_home_map.png","text","Tap the markers to view the bin details."],s,s)],t.m0))}}
 A.a2s.prototype={
 I(a){var s,r,q,p,o,n,m,l=null,k=t.w,j=A.bc(a,l,k).w
 k=A.bc(a,l,k).w

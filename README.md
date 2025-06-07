@@ -1,5 +1,11 @@
 # Smart Recycling Bin - Web Version
 
+# This repo's live application no longer is supported, visit the working application using the link below.
+
+## Visit the App
+You can access the live web application here: [**Recycling Rewards App (Recycle TP)**](https://tp-cen-srb.github.io/RecycleTP/)
+
+
 ## Overview
 Welcome to the **Smart Recycling Bin (SRB)** web application, part of a project aimed at improving recycling rates at **Temasek Polytechnic**. This web app allows users to interact with the SRB system, track their recycling activities, and redeem rewards.
 
@@ -8,5 +14,3 @@ Welcome to the **Smart Recycling Bin (SRB)** web application, part of a project 
 - **Point System**: Users are awarded points to redeem rewards after disposing recyclables.
 - **Rewards System**: Users earn points for each successful recycling activity, which can be redeemed for various rewards.
 
-## Visit the App
-You can access the live web application here: [**Recycling Rewards App (Recycle TP)**](https://tp-cen-srb.github.io/RecycleTP/)
